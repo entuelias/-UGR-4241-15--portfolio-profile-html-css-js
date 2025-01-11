@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Website</title>
-
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
       rel="stylesheet"
@@ -13,7 +17,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">Entisar Elias</div>
+        <div class="logo">Entu</div>
         <ul class="nav-links">
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -26,12 +30,25 @@
           <a href="https://github.com/entuelias" target="_blank" title="GitHub">
             <i class="ri-github-fill"></i>
           </a>
-          <a href="https://t.me/binteluzz" target="_blank" title="Telegram">
+          <a
+            href="https://t.me/binteluzz"
+            target="_blank"
+            id="tg"
+            title="Telegram"
+          >
             <i class="ri-telegram-fill"></i>
           </a>
-          <a href="https://www.youtube.com/c/" target="_blank" title="YouTube">
+          <a
+            href="https://www.youtube.com/c/"
+            target="_blank"
+            id="youtube"
+            title="YouTube"
+          >
             <i class="ri-youtube-fill"></i>
           </a>
+        </div>
+        <div class="toggle-menu">
+          <i class="ri-menu-line"></i>
         </div>
       </nav>
     </header>
@@ -54,29 +71,10 @@
           <a
             href="https://www.facebook.com/"
             target="_blank"
+            id="fb"
             title="Visit our Facebook"
           >
             <i class="ri-facebook-circle-fill"></i>
-          </a>
-        </li>
-        <!-- Telegram Icon -->
-        <li>
-          <a
-            href="https://t.me/binteluzz"
-            target="_blank"
-            title="Visit our Telegram"
-          >
-            <i class="ri-telegram-fill"></i>
-          </a>
-        </li>
-        <!-- LinkedIn Icon -->
-        <li>
-          <a
-            href="https://www.linkedin.com/in/"
-            target="_blank"
-            title="Visit our LinkedIn"
-          >
-            <i class="ri-linkedin-box-fill"></i>
           </a>
         </li>
         <!-- Instagram Icon -->
@@ -84,13 +82,31 @@
           <a
             href="https://www.instagram.com/yourusername"
             target="_blank"
+            id="instagram"
             title="Visit our Instagram"
           >
             <i class="ri-instagram-fill"></i>
           </a>
         </li>
+        <!-- LinkedIn Icon -->
+        <li>
+          <a
+            href="https://www.linkedin.com/in/"
+            target="_blank"
+            id="linkedin"
+            title="Visit our LinkedIn"
+          >
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+        </li>
+
+        <a href="https://github.com/entuelias" target="_blank" title="GitHub">
+          <i class="ri-github-fill"></i>
+        </a>
       </ul>
       <p>&copy; 2024 Entisar Elias | All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
+
   </body>
 </html>
